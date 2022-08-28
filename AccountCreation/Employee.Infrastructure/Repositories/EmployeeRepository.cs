@@ -10,13 +10,14 @@ using System.Threading.Tasks;
 
 namespace Employee.Infrastructure.Repositories
 {
-    public class EmployeeRepository : Repository<Employee.Core.Entities.Employee>, IEmployeeRepository
+    public class EmployeeRepository : Repository<Employee.Core.Entities.AccountDetails>, IAccountRepository
     {
-        public EmployeeRepository(EmployeeContext EmployeeContext) : base(EmployeeContext)
+        public EmployeeRepository(AccountContext EmployeeContext) : base(EmployeeContext)
         {
 
         }
-        public async Task<IEnumerable<Core.Entities.Employee>> GetEmployeeByLastName(string Surname)
+       
+        public async Task<IEnumerable<Core.Entities.AccountDetails>> GetEmployeeByLastName(string Surname)
         {
             return await _EmployeeContext.AccountDetails
                 .Where(m => m.Surname == Surname)

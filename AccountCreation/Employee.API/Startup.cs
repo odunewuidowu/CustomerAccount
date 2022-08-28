@@ -38,19 +38,24 @@ namespace Employee.API
         {
 
             services.AddControllers();
-            services.AddDbContext<EmployeeContext>(
+            services.AddDbContext<AccountContext>(
                  m => m.UseSqlServer(Configuration.GetConnectionString("EmployeeDB")), ServiceLifetime.Singleton);
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Account Creation", Version = "v1" });
             });
             services.AddAutoMapper(typeof(Startup));
-
-            services.AddMediatR(typeof(CreateEmployeeHandler).GetTypeInfo().Assembly);
+           //services.AddMediatR(typeof(CreateTransHandler).GetTypeInfo().Assembly);
+            //services.AddMediatR(typeof(CreateTransHandler));
+            services.AddMediatR(typeof(CreateHandler));
+            // services.AddMediatR(Assembly.GetExecutingAssembly());
+            //services.AddMediatR(typeof(CreateTransHandler).GetTypeInfo().Assembly);
+            //services.AddMediatR(Assembly.GetExecutingAssembly(), typeof(ICustomerService).Assembly);
 
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
-            services.AddTransient<IEmployeeRepository, EmployeeRepository>();
+            services.AddTransient<IAccountRepository, EmployeeRepository>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

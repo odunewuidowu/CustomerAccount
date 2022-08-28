@@ -11,9 +11,9 @@ namespace Employee.Infrastructure.Repositories.Base
 {
     public class Repository<T> : IRepository<T> where T : class
     {
-        protected readonly EmployeeContext _EmployeeContext;
+        protected readonly AccountContext _EmployeeContext;
 
-        public Repository(EmployeeContext EmployeeContext)
+        public Repository(AccountContext EmployeeContext)
         {
             _EmployeeContext = EmployeeContext;
         }
