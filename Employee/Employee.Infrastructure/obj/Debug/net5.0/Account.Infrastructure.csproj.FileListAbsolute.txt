@@ -1,0 +1,5 @@
+C:\Users\idowu.odunewu\Downloads\Delete Later\EmployeeManagementCleanArchitecture\EmployeeManagementCleanArchitecture\Employee.Infrastructure\obj\Debug\net5.0\Account.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\idowu.odunewu\Downloads\Delete Later\EmployeeManagementCleanArchitecture\EmployeeManagementCleanArchitecture\Employee.Infrastructure\obj\Debug\net5.0\Account.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\idowu.odunewu\Downloads\Delete Later\EmployeeManagementCleanArchitecture\EmployeeManagementCleanArchitecture\Employee.Infrastructure\obj\Debug\net5.0\Account.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\idowu.odunewu\Downloads\Delete Later\EmployeeManagementCleanArchitecture\EmployeeManagementCleanArchitecture\Employee.Infrastructure\obj\Debug\net5.0\Account.Infrastructure.AssemblyInfo.cs
+C:\Users\idowu.odunewu\Downloads\Delete Later\EmployeeManagementCleanArchitecture\EmployeeManagementCleanArchitecture\Employee.Infrastructure\obj\Debug\net5.0\Account.Infrastructure.csproj.CoreCompileInputs.cache
