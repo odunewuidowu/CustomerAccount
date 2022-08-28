@@ -7,3 +7,5 @@ This Enables customers create an account and post their transactions using the f
 4. Dependency Injection
 5. TestDriven Development
 6. SOLID design Principles
+
+To Set up, Run the database script and change the connection string inside API appsettings.
