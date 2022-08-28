@@ -1,0 +1,12 @@
+C:\Users\idowu.odunewu\Downloads\Delete Later\EmployeeManagementCleanArchitecture\PostTransaction\Employee.Core\bin\Debug\net5.0\PostTransaction.Core.deps.json
+C:\Users\idowu.odunewu\Downloads\Delete Later\EmployeeManagementCleanArchitecture\PostTransaction\Employee.Core\bin\Debug\net5.0\PostTransaction.Core.dll
+C:\Users\idowu.odunewu\Downloads\Delete Later\EmployeeManagementCleanArchitecture\PostTransaction\Employee.Core\bin\Debug\net5.0\PostTransaction.Core.pdb
+C:\Users\idowu.odunewu\Downloads\Delete Later\EmployeeManagementCleanArchitecture\PostTransaction\Employee.Core\obj\Debug\net5.0\PostTransaction.Core.csproj.AssemblyReference.cache
+C:\Users\idowu.odunewu\Downloads\Delete Later\EmployeeManagementCleanArchitecture\PostTransaction\Employee.Core\obj\Debug\net5.0\PostTransaction.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\idowu.odunewu\Downloads\Delete Later\EmployeeManagementCleanArchitecture\PostTransaction\Employee.Core\obj\Debug\net5.0\PostTransaction.Core.AssemblyInfoInputs.cache
+C:\Users\idowu.odunewu\Downloads\Delete Later\EmployeeManagementCleanArchitecture\PostTransaction\Employee.Core\obj\Debug\net5.0\PostTransaction.Core.AssemblyInfo.cs
+C:\Users\idowu.odunewu\Downloads\Delete Later\EmployeeManagementCleanArchitecture\PostTransaction\Employee.Core\obj\Debug\net5.0\PostTransaction.Core.csproj.CoreCompileInputs.cache
+C:\Users\idowu.odunewu\Downloads\Delete Later\EmployeeManagementCleanArchitecture\PostTransaction\Employee.Core\obj\Debug\net5.0\PostTransaction.Core.dll
+C:\Users\idowu.odunewu\Downloads\Delete Later\EmployeeManagementCleanArchitecture\PostTransaction\Employee.Core\obj\Debug\net5.0\refint\PostTransaction.Core.dll
+C:\Users\idowu.odunewu\Downloads\Delete Later\EmployeeManagementCleanArchitecture\PostTransaction\Employee.Core\obj\Debug\net5.0\PostTransaction.Core.pdb
+C:\Users\idowu.odunewu\Downloads\Delete Later\EmployeeManagementCleanArchitecture\PostTransaction\Employee.Core\obj\Debug\net5.0\ref\PostTransaction.Core.dll

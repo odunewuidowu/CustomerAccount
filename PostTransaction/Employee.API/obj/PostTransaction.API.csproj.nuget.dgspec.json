@@ -1,0 +1,106 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\idowu.odunewu\\Downloads\\Delete Later\\EmployeeManagementCleanArchitecture\\PostTransaction\\Employee.API\\PostTransaction.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\idowu.odunewu\\Downloads\\Delete Later\\EmployeeManagementCleanArchitecture\\PostTransaction\\Employee.API\\PostTransaction.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\idowu.odunewu\\Downloads\\Delete Later\\EmployeeManagementCleanArchitecture\\PostTransaction\\Employee.API\\PostTransaction.API.csproj",
+        "projectName": "PostTransaction.API",
+        "projectPath": "C:\\Users\\idowu.odunewu\\Downloads\\Delete Later\\EmployeeManagementCleanArchitecture\\PostTransaction\\Employee.API\\PostTransaction.API.csproj",
+        "packagesPath": "C:\\Users\\idowu.odunewu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\idowu.odunewu\\Downloads\\Delete Later\\EmployeeManagementCleanArchitecture\\PostTransaction\\Employee.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\idowu.odunewu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\idowu.odunewu\\Downloads\\Delete Later\\EmployeeManagementCleanArchitecture\\PostTransaction\\Employee.Application\\Employee.Application.csproj": {
+                "projectPath": "C:\\Users\\idowu.odunewu\\Downloads\\Delete Later\\EmployeeManagementCleanArchitecture\\PostTransaction\\Employee.Application\\Employee.Application.csproj"
+              },
+              "C:\\Users\\idowu.odunewu\\Downloads\\Delete Later\\EmployeeManagementCleanArchitecture\\PostTransaction\\Employee.Core\\Employee.Core.csproj": {
+                "projectPath": "C:\\Users\\idowu.odunewu\\Downloads\\Delete Later\\EmployeeManagementCleanArchitecture\\PostTransaction\\Employee.Core\\Employee.Core.csproj"
+              },
+              "C:\\Users\\idowu.odunewu\\Downloads\\Delete Later\\EmployeeManagementCleanArchitecture\\PostTransaction\\Employee.Infrastructure\\Employee.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\idowu.odunewu\\Downloads\\Delete Later\\EmployeeManagementCleanArchitecture\\PostTransaction\\Employee.Infrastructure\\Employee.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
